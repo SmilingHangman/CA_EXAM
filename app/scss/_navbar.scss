@@ -16,6 +16,18 @@ header {
         li {
             margin-left: 44px;
             font-size: 14px;
+            box-sizing: border-box;
+            padding-top: 25px;
+            padding-bottom: 25px;
+            border-top: solid 2px #1C1C1C;
+            border-bottom: solid 2px #1C1C1C;
+        }
+        li:hover {
+            cursor: pointer;
+            padding-top: 25px;
+            padding-bottom: 25px;
+            box-sizing: border-box;
+            border-bottom: solid 2px $brand;
         }
     }
 }
