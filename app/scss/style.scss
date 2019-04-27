@@ -6,6 +6,11 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.container {
+    // minusuoju po 148px nuo abieju sonu
+    max-width: 1104px;
+}
+
 h1 {
-    color: $brand;
+    color: $salad;
 }
