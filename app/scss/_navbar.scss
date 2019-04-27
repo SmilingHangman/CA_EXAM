@@ -9,6 +9,8 @@ header {
         align-items: center;
     }
     ul {
+        margin: 0;
+        padding: 0;
         display: flex;
         flex-flow: row;
         list-style-type: none;
