@@ -4,12 +4,23 @@ $brand: #E27866;
 
 body {
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
 }
 
 .container {
     // minusuoju po 148px nuo abieju sonu
-    max-width: 1104px;
+    // max-width: 1104px; (problem - mazejant width contentas limpa prie browserio sonu)
+    // bandau geriau palikt 1400px su paddingu, kad mazam browsery neliptu prie sonu contentas (tokiu atveju note for future - consider first break point at 943px width)
+    max-width: 1400px;
+    padding-left: 148px;
+    padding-right: 148px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
+
+@import 'navbar';
 
 h1 {
     color: $salad;
