@@ -1,0 +1,55 @@
+.homescr {
+    margin-top: 137px;
+}
+
+.lparthome {
+    max-width: 60%; //veliau gali reikt pakeisti
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    .logohomescr {
+        width: 247px;
+        height: 108px;
+    }
+    h1 {
+        font-weight: 600; 
+        font-size: 36px;
+        line-height: 43px;
+        color: white;
+    }
+    .divider01 {
+        width: 64px;
+        height: 22px;
+    }
+    h2 {
+        font-weight: 600; 
+        font-size: 16px;
+        line-height: 23px;
+        color: white;
+        opacity: 0.8;
+    }
+    .dwnld {
+        margin-top: 30px;
+        font-family: inherit;
+        font-size: 14px;
+        font-weight: 600;
+        color: white; 
+        width: 135px;
+        height: 42px;
+        border: solid 2px white;
+        background: none;
+    }
+    .dwnld:hover {
+        cursor: pointer;
+        font-family: inherit;
+        font-weight: 600;
+        background: white;
+        color: $brand; //pasirodo, padaryti permatomas raides, kad hoverinant rodytu miesto img backgrounda yra too much f-ing trouble. derinu prie navbaro hoverio
+    }
+}
+
+.rparthome {
+    width: 360px;
+    height: 425px;
+    background-color: white;
+}
