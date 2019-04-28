@@ -1,5 +1,6 @@
 $salad: #41D395;
 $blu: #6696E2;
+$dust: #1C1C1C;
 $brand: #E27866;
 
 body {
@@ -20,8 +21,23 @@ body {
     justify-content: space-between;
 }
 
-@import 'navbar';
-
-h1 {
-    color: $salad;
+.imgmain {
+    height: 933px;
+    width: 100%;
+    position: absolute;
+    object-fit: cover;
+    top: -132px;
+    z-index: -2;
 }
+
+.overlaymain {
+    margin-top: 72px;
+    height: 729px;
+    width: 100%;
+    position: absolute;
+    background-color: $dust;
+    opacity: 0.63;
+    z-index: -1;
+}
+
+@import 'navbar';

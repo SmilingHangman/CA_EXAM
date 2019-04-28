@@ -1,6 +1,6 @@
 header {
     height: 72px;
-    background-color: #1C1C1C;
+    background-color: $dust;
     position: fixed;
     top: 0;
     width: 100%;
@@ -21,8 +21,8 @@ header {
             box-sizing: border-box;
             padding-top: 25px;
             padding-bottom: 25px;
-            border-top: solid 2px #1C1C1C;
-            border-bottom: solid 2px #1C1C1C;
+            border-top: solid 2px $dust;
+            border-bottom: solid 2px $dust;
         }
         li:hover {
             cursor: pointer;
