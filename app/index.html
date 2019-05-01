@@ -34,7 +34,30 @@
             <button class='dwnld'>DOWNLOAD</button>
         </div>
         <div class='rparthome'>
-
+            <div class='formfirsttitle'>Try Your <span class="spanfree">FREE</span> Trial Today</div>            
+            <form class="formfirst">
+                
+                <div class="formfirstdets">Your details</div>
+                <input class="formfirsttext" type="text" name="firstname" placeholder="First name">
+                <input class="formfirsttext" type="text" name="lastname" placeholder="Last name">
+                <input class="formfirsttext" type="tel" name="phonenumber" placeholder="Phone number">
+                <div class="formfirstdets">Type of subscription</div>
+                
+                <div class="formfirstradio">
+                    <label class="customradio">
+                        <input type="radio" name="typeofsubscription" id="monthly" value="monthly" checked>
+                        <label for="monthly">MONTHLY</label>
+                        <span class="radiomark"></span>
+                    </label>
+                    <label class="customradio">
+                            <input type="radio" name="typeofsubscription" id="yearly" value="yearly">
+                            <label for="yearly">YEARLY</label>
+                            <span class="radiomark"></span>
+                    </label>
+                </div>
+                
+                <input class="formfirstsub" type="submit" value="GET STARTED">
+            </form>
         </div>
     </div>
     <script src="script.js"></script>

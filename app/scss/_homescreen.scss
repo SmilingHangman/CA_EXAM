@@ -49,7 +49,136 @@
 }
 
 .rparthome {
-    width: 360px;
-    height: 425px;
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 5px;
+    .formfirsttitle {
+        font-family: inherit;
+        font-weight: 600;
+        font-size: 20px;
+        color: #333333;
+        background-color: #F5F5F5;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        padding-top: 17px;
+        padding-bottom: 17px;
+        padding-left: 50px;
+        padding-right: 50px;
+        .spanfree {
+            color: $brand;
+        }
+    }
+    .formfirst {
+        display: flex;
+        flex-direction: column;
+        padding-left: 50px;
+        padding-right: 50px;
+        .formfirstdets {
+            font-family: inherit;
+            font-weight: 600;
+            font-size: 16px;
+            color: $dust;
+            padding-top: 30px;
+        }
+        .formfirsttext {
+            border: none;
+            border-bottom: 1px solid #D8D8D8;
+            margin-bottom: 30px;
+        }
+        input {
+            font-family: inherit;
+            font-size: 12px;
+            line-height: 24px;
+            padding-left: 10px;
+        }
+        ::placeholder {
+            color: #D8D8D8;
+        }
+        .formfirsttext:first-of-type {
+            margin-top: 20px;
+        }
+        .formfirsttext:nth-of-type(3) {
+            margin-bottom: 5px;
+        }
+        .formfirstradio {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-top: 17px;
+            margin-bottom: 40px;
+            font-family: inherit;
+            font-size: 9px;
+            line-height: 27px;
+        }
+
+        // custom FAKIN RADIO BUTTONS!! below. behold ble 3hrs of this bs
+        .customradio {
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: center;
+        }
+        .customradio:first-of-type {
+            margin-right: 17px;
+        }
+        .customradio input {
+            opacity: 0;
+            display: none;
+        }
+        .radiomark {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 12px;
+            height: 12px;
+            border: 1px solid $salad;
+            border-radius: 50%;
+            margin-right: 5px;
+            opacity: 0.5;
+        }
+        .customradio input:checked ~ .radiomark {
+            opacity: 1;
+        }
+        .customradio:hover input ~ .radiomark {
+            cursor: pointer;
+        }
+        .radiomark:after {
+            content: "";
+            display: none;
+        }
+        .customradio input:checked ~ .radiomark:after {
+            display: flex;
+        }
+        .customradio .radiomark:after {
+            width: 5px;
+            height: 5px;
+            border-radius: 50%;
+            background: $salad;
+        }
+        // a label WHITHN a label? well why the hell not? (bs too, btw)
+        .customradio input:checked + label {
+            font-weight: 600;
+            font-size: 9px;
+            line-height: 27px;
+        }
+        // custom radio buttons DONE. below follows 'GET STARTED' button.
+        .formfirstsub {
+            margin: -50px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            height: 57px;
+            border: none;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            padding: 0;
+            font-size: 18px;
+            font-weight: 600;
+            color: white;
+            background-color: $salad;
+        }
+        .formfirstsub:hover {
+            cursor: pointer;
+        }
+    }
 }
