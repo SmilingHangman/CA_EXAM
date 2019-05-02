@@ -1,0 +1,40 @@
+.socmediabar {
+    display: flex;
+    flex-direction: row;
+    height: 105px;
+    background-color: white;
+    margin: 0;
+    margin-top: 140px;
+    .smedleft {
+        margin-top: 19px;
+        margin-bottom: 19px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 36%;
+        .smedtitle {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 5px;
+            color: #333333;
+        }
+        .smedp {
+            margin: 0;
+            color: #86878B;
+        }
+    }
+    .smedright {
+        min-width: 53%;
+        padding-right: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .socmed {
+            text-decoration: none;
+        }
+        .socmedico {
+            width: 30px;
+            height: 30px;
+        }
+    }
+}

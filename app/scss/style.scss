@@ -8,11 +8,15 @@ body {
     margin: 0;
 }
 
+p {
+    font-size: 14px;
+}
+
 .container {
     // minusuoju po 148px nuo abieju sonu
     // max-width: 1104px; (problem - mazejant width contentas limpa prie browserio sonu)
     // bandau geriau palikt 1400px su paddingu, kad mazam browsery neliptu prie sonu contentas (tokiu atveju note for future - consider first break point at 943px (updated consider @960px, kodel padidejo??) width. nuemus ul kazkoki paddinga is kaires per 40px, db consider break @920px. wtf)
-    max-width: 1400px;
+    // max-width: 1400px; ok, for some reason db geriausia kol kas width palikt unspecified (no idea what's going on)
     padding-left: 148px;
     padding-right: 148px;
     margin: 0 auto;
@@ -43,3 +47,5 @@ body {
 }
 
 @import 'homescreen';
+
+@import 'socialmediabar';
