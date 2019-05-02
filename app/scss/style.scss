@@ -49,3 +49,29 @@ p {
 @import 'homescreen';
 
 @import 'socialmediabar';
+
+.imgsecond {
+    height: 933px;
+    width: 100%;
+    position: absolute;
+    object-fit: cover;
+    top: 498px;
+    z-index: -4;
+}
+.overlay2 {
+    height: 933px;
+    width: 100%;
+    position: absolute;
+    background-image: linear-gradient(270deg, $blu, $brand);
+    opacity: 0.42;
+    top: 498px;
+    z-index: -3;
+}
+
+.test3 {
+    height: 595px;
+    border: solid 1px green;
+    box-sizing: border-box;
+    color: white;
+    font-size: 100px;
+}
