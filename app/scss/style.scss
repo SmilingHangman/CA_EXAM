@@ -77,6 +77,9 @@ p {
     box-sizing: border-box;
     color: beige;
     font-size: 40px;
+    h3 {
+        text-align: center;
+    }
     .imgsecond {
         margin: -148px;
         margin-top: 0;
@@ -102,3 +105,5 @@ p {
         z-index: -1;
     }
 }
+
+@import 'erattemportempus'
