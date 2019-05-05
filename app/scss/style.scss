@@ -2,6 +2,7 @@ $salad: #41D395;
 $blu: #6696E2;
 $dust: #1C1C1C;
 $brand: #E27866;
+$dustlight: #86878B;
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -19,6 +20,7 @@ p {
     // max-width: 1104px; (problem - mazejant width contentas limpa prie browserio sonu)
     // bandau geriau palikt 1400px su paddingu, kad mazam browsery neliptu prie sonu contentas (tokiu atveju note for future - consider first break point at 943px (updated consider @960px, kodel padidejo??) width. nuemus ul kazkoki paddinga is kaires per 40px, db consider break @920px. wtf)
     // max-width: 1400px; ok, for some reason db geriausia kol kas width palikt unspecified (no idea what's going on)
+    max-width: 2000px;
     padding-left: 148px;
     padding-right: 148px;
     margin: 0 auto;
@@ -31,7 +33,8 @@ p {
 @import 'navbar';
 
 .imgmainbgr {
-    height: 933px;
+    // height: 933px;
+    height: 1110px;
     width: 100%;
     position: absolute;
     object-fit: cover;
@@ -40,7 +43,8 @@ p {
 }
 
 .overlaymainbgr {
-    height: 933px;
+    // height: 933px;
+    height: 1110px;
     width: 100%;
     position: absolute;
     background-color: $dust;
@@ -107,4 +111,6 @@ p {
     }
 }
 
-@import 'erattemportempus'
+@import 'erattemportempus';
+
+@import 'isawesome';

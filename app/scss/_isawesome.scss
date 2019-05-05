@@ -1,0 +1,70 @@
+.isosombcgr {
+    width: 100%; 
+}
+.isosom {
+    max-width: 2000px;
+    padding-left: 148px;
+    padding-right: 148px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    .isosomtitle {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h3 {
+            font-size: 36px;
+            font-weight: 600;
+            margin: 0;
+            margin-top: 99px;
+            margin-bottom: 21px;
+        }
+        .isosomdivider {
+            width: 64px;
+        }
+        p {
+            margin: 0;
+            margin-top: 26px;
+            margin-bottom: 35px;
+            color: $dustlight;
+        }
+    }
+    .isosomabout {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 30px;
+        margin-bottom: 122px;
+        .isosomsection {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 290px;
+            .isosomicbord {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 50px;
+                height: 50px;
+                border: solid 1px $brand;
+                border-radius: 50%;
+                box-sizing: border-box;
+                .isosomicon {
+                    width: 24px;
+                    height: 24px;
+                }
+            }
+            .isosompttl {
+                font-size: 20px;
+                color: #333333;
+                margin-top: 35px;
+                margin-bottom: 27px;
+            }
+            p {
+                text-align: center;
+                color: $dustlight;
+                margin: 0;
+            }
+        }
+    }
+}
