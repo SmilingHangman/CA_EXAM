@@ -1,0 +1,94 @@
+.pricingbcgr {
+    width: 100%;
+    background-color: $blu;
+}
+.pricing {
+    max-width: 2000px;
+    padding-left: 148px;
+    padding-right: 148px;
+    margin: 0 auto;
+    padding-top: 97px;
+    padding-bottom: 107px;
+    display: flex;
+    flex-direction: column;
+    .pricingtitle {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h3 {
+            font-size: 36px;
+            font-weight: 600;
+            margin: 0;
+            color: white;
+            margin-bottom: 21px;
+        }
+        .pricingdivider {
+            width: 64px;
+        }
+        p {
+            margin: 0;
+            margin-top: 26px;
+            margin-bottom: 80px;
+            color: white;
+        }
+    }
+    .pricingoptions {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+        .pricingoptioncont {
+            min-width: 343px; // maybe not necessary must check this later
+            text-align: center;
+            .pricingotiontop {
+                background-color: #333333;
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+                padding-top: 14px;
+                padding-bottom: 19px;
+                color: white;
+                .pricingoptionname {
+                    margin: 0;
+                    margin-bottom: 21px;
+                    font-size: 20px;
+                }
+                .pricetag {
+                    margin: 0;
+                    font-size: 94px;
+                    .dollar {
+                        font-size: 40%;
+                    }
+                }
+                .monthlycost {
+                    font-size: 14px;
+                    margin: 0;
+                    opacity: 0.5;
+                }
+            }
+            .pricingoptionmiddle {
+                border: solid 3px $salad;
+                box-sizing: border-box;
+                background-color: $salad;
+                color: white;
+                p {
+                    font-size: 14px;
+                }
+            }
+            .pricingoptionbottom {
+                background-color: white;
+                border-bottom-left-radius: 5px;
+                border-bottom-right-radius: 5px;
+                color: $dustlight;
+                padding-top: 11px;
+                padding-bottom: 11px;
+                p {
+                    margin: 0;
+                    margin-bottom: 20px;
+                }
+                p:last-of-type {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}
