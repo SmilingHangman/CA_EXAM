@@ -1,0 +1,35 @@
+.reviewsbcgr {
+    width: 100%;
+}
+
+.reviews {
+    max-width: 2000px;
+    padding-left: 148px;
+    padding-right: 148px;
+    margin: 0 auto;
+    padding-top: 67px;
+    // padding-bottom: 107px;
+    display: flex;
+    flex-direction: column;
+    .reviewstitle {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h3 {
+            margin: 0;
+            margin-bottom: 31px;
+            font-size: 36px;
+            font-weight: 600;
+            color: $dust;
+        }
+        .reviewsdivider {
+            width: 64px;
+            border: solid 1px $blu;
+            box-sizing: border-box;
+        }
+    }
+    .customerssay {
+        font-size: 40px;
+        text-align: center;
+    }
+}

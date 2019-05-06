@@ -1,0 +1,24 @@
+.socmediabar2 {
+    background-color: $dust;
+    margin: 0;
+    padding-top: 38px;
+    padding-bottom: 38px;
+    .smed2left {
+        min-width: 50%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .socmed2 {
+            text-decoration: none;
+        }
+        .socmed2ico {
+            width: 20px;
+            height: 20px;
+        }
+    }
+    .smed2right {
+        font-size: 18px;
+        color: white;
+        opacity: 0.5;
+    }
+}
