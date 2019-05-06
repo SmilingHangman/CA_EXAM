@@ -3,7 +3,7 @@
     background-color: $blu;
 }
 .pricing {
-    max-width: 2000px;
+    max-width: 1500px;
     padding-left: 148px;
     padding-right: 148px;
     margin: 0 auto;
@@ -21,6 +21,7 @@
             margin: 0;
             color: white;
             margin-bottom: 21px;
+            text-align: center;
         }
         .pricingdivider {
             width: 64px;
@@ -89,6 +90,10 @@
                     margin-bottom: 0;
                 }
             }
+        }
+        .pricingoptioncont:nth-of-type(2) {
+            margin-left: 10px;
+            margin-right: 10px;
         }
     }
 }
