@@ -2,12 +2,13 @@
     width: 100%; 
 }
 .isosom {
-    max-width: 1500px;
+    max-width: 1600px;
     padding-left: 148px;
     padding-right: 148px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+    box-sizing: border-box;
     .isosomtitle {
         display: flex;
         flex-direction: column;

@@ -3,7 +3,7 @@
 }
 
 .reviews {
-    max-width: 2000px;
+    max-width: 1600px;
     padding-left: 148px;
     padding-right: 148px;
     margin: 0 auto;
@@ -11,6 +11,7 @@
     // padding-bottom: 107px;
     display: flex;
     flex-direction: column;
+    box-sizing: border-box;
     .reviewstitle {
         display: flex;
         flex-direction: column;
