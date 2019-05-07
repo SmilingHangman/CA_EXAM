@@ -1,0 +1,26 @@
+.featuresbgr {
+    background-image: linear-gradient(270deg, rgba(102, 150, 226, 0.42), rgba(226, 120, 102, 0.42)), url(assets/photo_landscape.png);
+    background-size: cover;
+    width: 100%;
+}
+
+.features {
+    padding-top: 114px;
+    padding-bottom: 114px;
+    .featuresmid {
+        display: flex;
+        flex-direction: column;
+        max-width: 49%;
+        h3 {
+            font-size: 36px;
+            color: white;
+            margin: 0;
+            margin-bottom: 33px;
+        }
+        p {
+            color: white;
+            margin: 0;
+            margin-bottom: 20px;
+        }
+    }
+}

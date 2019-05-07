@@ -14,7 +14,9 @@
     "gulp-autoprefixer": "^6.1.0",
     "gulp-sass": "^4.0.2"
   },
-  "dependencies": {},
+  "dependencies": {
+    "jquery": "^3.4.1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SmilingHangman/Pitchfork.git"

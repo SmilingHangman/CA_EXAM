@@ -7,24 +7,22 @@
     <title>CA_EXAM</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 </head>
+
 <body>
     <header>
         <div class='container navig'>
             <img src="assets/cheshire-county-hygiene-services.svg">
             <ul>
-                <li>Features</li>
-                <li>About</li>
-                <li>Pricing</li>
-                <li>Reviews</li>
-                <li>Contact</li>
+                <li><a class="navigation" href="#featuressection">Features</a></li>
+                <li><a class="navigation" href="#aboutsection">About</a></li>
+                <li><a class="navigation" href="#pricingsection">Pricing</a></li>
+                <li><a class="navigation" href="#reviewssection">Reviews</a></li>
+                <li><a class="navigation" href="#contactsection">Contact</a></li>
             </ul>
         </div>
     </header>
-    
-    <!-- <div class='mainbgr'>
-        <div class='overlaymainbgr'></div>
-    </div> -->
 
     <div class='homebgr'>
         <div class='container homescr'>
@@ -80,15 +78,19 @@
         </div>
     </div>
 
-    <div class='sec2bgrrelative'>
-        <div class='sec2bgr'></div>
-        <div class='overlay2'></div>
+    <div id="featuressection" class="featuresbgr">
+        <div class='container features'>
+            <div class="featuresleft"></div>
+            <div class="featuresmid">
+                <h3>Tabs with soft transitioning effect. Explained propriety of out perpetual his you.</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+            </div>
+            <div class="featuresright"></div>
+        </div>
     </div>
 
-    <div class="container test3"><h3>UNDER CONSTRUCTION! (section 3)</h3>
-    </div>
-
-    <div class="eratbckgr">
+    <div id="aboutsection" class="eratbckgr">
         <div class="container erattempor">
             <img class='logoerattempor' src="assets/cheshire-county-hygiene-services.svg">
             <div class="erattemporright">
@@ -148,7 +150,7 @@
         </div>
     </div>
 
-    <div class="pricingbcgr">
+    <div id="pricingsection" class="pricingbcgr">
         <div class="pricing">
             <div class="pricingtitle">
                 <h3>PRICING OPTIONS</h3>
@@ -208,7 +210,7 @@
         </div>
     </div>
 
-    <div class="reviewsbcgr">
+    <div id="reviewssection" class="reviewsbcgr">
         <div class="reviews">
             <div class="reviewstitle">
                 <h3>WHAT OUR CUSTOMERS ARE SAYING</h3>
@@ -220,7 +222,7 @@
         </div>
     </div>
 
-    <div class="contactusbcgr">
+    <div id="contactsection" class="contactusbcgr">
         <div class="contactus">
             <h3>CONTACT US</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
