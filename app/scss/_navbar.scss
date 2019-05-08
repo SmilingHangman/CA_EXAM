@@ -8,6 +8,9 @@ header {
     .navig {
         height: 72px;
         align-items: center;
+        a {
+            text-decoration: none;
+        }
     }
     ul {
         margin: 0;
