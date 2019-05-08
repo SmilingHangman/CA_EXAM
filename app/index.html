@@ -35,7 +35,7 @@
             </div>
             <div class='rparthome'>
                 <div class='formfirsttitle'>Try Your <span class="spanfree">FREE</span> Trial Today</div>            
-                <form class="formfirst" action="/action_page.php" target="_blank" method="POST">
+                <form class="formfirst" name="freeTrialForm" action="/action_page.php" onsubmit="return validateFormA()" target="_blank" method="POST">
                             
                     <div class="formfirstdets">Your details</div>
                     <input class="formfirsttext" type="text" name="firstname" placeholder="First name">
@@ -227,11 +227,11 @@
             <h3>CONTACT US</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
-            <form class="form2" action="/action_page.php" target="_blank" method="POST">
+            <form class="form2" name="contactForm" action="/action_page.php" onsubmit="return validateFormB()" target="_blank" method="POST">
                     
-                <input class="form2text" type="text" name="firstname" placeholder="First name">
-                <input class="form2text" type="text" name="lastname" placeholder="Last name">
-                <input class="form2text" type="tel" name="phonenumber" placeholder="Phone number">
+                <input class="form2text" type="text" name="firstnamecont" placeholder="First name">
+                <input class="form2text" type="text" name="lastnamecont" placeholder="Last name">
+                <input class="form2text" type="tel" name="phonenumbercont" placeholder="Phone number">
                 
                 <div class="form2radio">
                     <label class="customradio">
