@@ -28,29 +28,36 @@ function validateFormB() {
     }
   }
 
+// Swiper for Features section
+let featuresSwiper = new Swiper ('.swiper-container-interactive', {
+  direction: 'horizontal',
+  loop: false,
+  slidesPerView: 1,
+  spaceBetween: 20,
+})
+
+let smallboxeswow = document.querySelectorAll(".selectfeature");
+for (let i = 0; i < smallboxeswow.length; i++) {
+  smallboxeswow[i].addEventListener("click", function() {
+    for (let j = 0; j < smallboxeswow.length; j++){
+      smallboxeswow[j].classList.remove("active");
+    }
+    this.classList.add("active");
+    let slideNumber = this.getAttribute("data-slide");
+    featuresSwiper.slideTo(slideNumber-1, 300);
+  })
+}
+
+featuresSwiper.on("slideChange", function () {
+  let slideIndex = featuresSwiper.activeIndex;
+  for (let j = 0; j < smallboxeswow.length; j++){
+    smallboxeswow[j].classList.remove("active");
+  }
+  smallboxeswow[slideIndex].classList.add("active");
+ });
+
+
 // swiper
-// var mySwiper = new Swiper ('.swiper-container', {
-//   // Optional parameters
-//   direction: 'horizontal',
-//   loop: true,
-
-//   // If we need pagination
-//   pagination: {
-//     el: '.swiper-pagination',
-//   },
-
-//   // Navigation arrows
-//   navigation: {
-//     nextEl: '.swiper-button-next',
-//     prevEl: '.swiper-button-prev',
-//   },
-
-//   // And if we need scrollbar
-//   scrollbar: {
-//     el: '.swiper-scrollbar',
-//   },
-// })
-
 var swiper = new Swiper('.swiper-container', {
   slidesPerView: 3,
   slidesPerGroup: 3,
