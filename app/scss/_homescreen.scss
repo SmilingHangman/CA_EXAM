@@ -55,6 +55,20 @@
         color: $brand;
     }
 }
+@media screen and (max-width: 600px) {
+    .lparthome {
+        max-width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0px;
+        h1 {
+            text-align: center;
+        }
+        .dwnld {
+            margin-bottom: 30px;
+        }
+    }
+}
 
 .rparthome {
     max-height: 420px;

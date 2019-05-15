@@ -38,3 +38,23 @@
         }
     }
 }
+@media screen and (max-width: 600px) {
+    .socmediabar {
+        .smedleft {
+            display: flex;
+            flex-direction: row;
+            // justify-content: flex-end;
+            align-items: center;
+            max-width: 100%;
+            .smedtitle {
+                margin-bottom: 0px;
+                margin-right: 20px;
+            }
+        }
+        .smedright {
+            min-width: 100%;
+            padding-right: 0px;
+            padding-bottom: 19px;
+        }
+    }
+}
