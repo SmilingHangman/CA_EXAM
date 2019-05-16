@@ -68,3 +68,12 @@ var swiper = new Swiper('.swiper-container', {
     clickable: true,
   },
 });
+
+//torturing checkbox
+// $('input:checkbox').change(function(){
+//   if($(this).is("input:checkbox:not(:checked)")) {
+//       $('.mnav').addClass("slideOutRight");
+//   } else {
+//       $('.mnav').removeClass("slideOutRight");
+//   }
+// });

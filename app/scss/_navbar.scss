@@ -37,3 +37,55 @@ header {
         }
     }
 }
+@media screen and (max-width: 600px) {
+    header {
+        width: 100vw;
+    }
+    .navig {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .mobilenavigation {
+        background-image: url(assets/mobile_menu.svg);
+        background-size: cover;
+        position: relative;
+        height: 52px;
+        width: 52px;
+        #mobnavcb {
+            display: none;
+            visibility: hidden;
+            opacity: 0;
+        }
+        .mnav {
+            width: 280px;
+            background-color: $dust;
+            position: absolute;
+            flex-flow: column;
+            display: none;
+            visibility: hidden;
+            opacity: 0;
+            top: 62px;
+            left: -88px;
+            li {
+                margin: 0;
+                a {
+                    height: 100%;
+                    padding-left: 20px;
+                    padding-right: 220px;
+                }
+            }
+        }
+    }
+    .mobilenavigation input:checked + .mnav { 
+        display: flex;
+        visibility: initial;
+        opacity: 1;
+    }
+    ul {
+        position: absolute;
+        display: none;
+        visibility: hidden;
+        opacity: 0;
+    }
+}

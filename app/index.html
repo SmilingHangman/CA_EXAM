@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 </head>
 
@@ -15,6 +16,17 @@
     <header>
         <div class='container navig'>
             <a href="#homessection"><img src="assets/cheshire-county-hygiene-services.svg"></a>
+            <label class="mobilenavigation">
+                <input type="checkbox" name="mobilenav" id="mobnavcb" class="animated slideOutRight faster">
+                <ul class="mnav animated slideInRight faster">
+                    <li class="animated slideInRight faster"><a class="navigation" href="#homessection">Home</a></li>
+                    <li class="animated slideInRight faster"><a class="navigation" href="#featuressection">Features</a></li>
+                    <li class="animated slideInRight faster"><a class="navigation" href="#aboutsection">About</a></li>
+                    <li class="animated slideInRight faster"><a class="navigation" href="#pricingsection">Pricing</a></li>
+                    <li class="animated slideInRight faster"><a class="navigation" href="#reviewssection">Reviews</a></li>
+                    <li class="animated slideInRight faster"><a class="navigation" href="#contactsection">Contact</a></li>
+                </ul>
+            </label>
             <ul>
                 <li><a class="navigation" href="#featuressection">Features</a></li>
                 <li><a class="navigation" href="#aboutsection">About</a></li>
@@ -22,6 +34,9 @@
                 <li><a class="navigation" href="#reviewssection">Reviews</a></li>
                 <li><a class="navigation" href="#contactsection">Contact</a></li>
             </ul>
+            <!-- <label class="mobilenavigation">
+                <input type="checkbox" name="mobilenav" id="mobnavcb">
+            </label> -->
         </div>
     </header>
 
