@@ -37,7 +37,7 @@ let featuresSwiper = new Swiper ('.swiper-container-interactive', {
   breakpoints: {
     600: {
       spaceBetween: 10,
-      // width: 300
+      // width: 500
     }
   }
 })
