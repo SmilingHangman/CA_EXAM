@@ -71,3 +71,27 @@
         }
     }
 }
+@media screen and (max-width: 600px) {
+    .isosom {
+        max-width: 320px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        .isosomabout {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 50px;
+            .isosomsection {
+                margin-bottom: 40px;
+                .isosompttl {
+                    margin-top: 15px;
+                    margin-bottom: 17px;
+                }
+            }
+        }
+    }
+}

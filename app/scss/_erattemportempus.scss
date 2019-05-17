@@ -63,3 +63,18 @@
         }
     }
 }
+@media screen and (max-width: 600px) {
+    .erattempor {
+        padding-top: 50px;
+        padding-bottom: 70px;
+        .logoerattempor {
+            min-width: 300px;
+            height: auto;
+            margin-right: 0px;
+            margin-bottom: 30px;
+        }
+        .erattemporright {
+            max-width: 100%;
+        }
+    }
+}

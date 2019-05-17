@@ -12,6 +12,11 @@ header {
             text-decoration: none;
         }
     }
+    .mnav, #mobnavcb {
+        display: none;
+        visibility: hidden;
+        opacity: 0;
+    }
     ul {
         margin: 0;
         padding: 0;
@@ -37,6 +42,7 @@ header {
         }
     }
 }
+
 @media screen and (max-width: 600px) {
     header {
         width: 100vw;

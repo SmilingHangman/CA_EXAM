@@ -22,6 +22,15 @@
         margin-bottom: 27px;
     }
 }
+@media screen and (max-width: 600px) {
+    .contactus {
+        p {
+            margin-left: 10px;
+            margin-right: 10px;
+            text-align: center;
+        }
+    }
+}
 
 .form2 {
     display: flex;
@@ -137,5 +146,11 @@
     .form2send:hover {
         cursor: pointer;
         color: $brand;
+    }
+}
+@media screen and (max-width: 600px) {
+    .form2 {
+        min-width: unset;
+        width: 300px;
     }
 }

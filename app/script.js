@@ -34,6 +34,12 @@ let featuresSwiper = new Swiper ('.swiper-container-interactive', {
   loop: false,
   slidesPerView: 1,
   spaceBetween: 20,
+  breakpoints: {
+    600: {
+      spaceBetween: 10,
+      // width: 300
+    }
+  }
 })
 
 let smallboxeswow = document.querySelectorAll(".selectfeature");
@@ -67,6 +73,12 @@ var swiper = new Swiper('.swiper-container', {
     el: '.swiper-pagination',
     clickable: true,
   },
+  breakpoints: {
+    600: {
+      slidesPerView: 1,
+      slidesPerGroup: 1,
+    }
+  }
 });
 
 //torturing checkbox

@@ -24,9 +24,6 @@ p {
 }
 
 .container {
-    // minusuoju po 148px nuo abieju sonu
-    // max-width: 1104px; (problem - mazejant width contentas limpa prie browserio sonu)
-    // bandau geriau palikt 1400px su paddingu, kad mazam browsery neliptu prie sonu contentas (tokiu atveju note for future - consider first break point at 943px (updated consider @960px, kodel padidejo??) width. nuemus ul kazkoki paddinga is kaires per 40px, db consider break @920px. wtf)
     max-width: 1600px;
     padding-left: 148px;
     padding-right: 148px;
@@ -38,7 +35,7 @@ p {
 }
 @media screen and (max-width: 600px) {
     .container {
-        width: 320px;
+        max-width: 320px;
         padding-left: 10px;
         padding-right: 10px;
         display: flex;

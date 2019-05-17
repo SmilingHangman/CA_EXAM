@@ -8,7 +8,7 @@
     padding-right: 148px;
     margin: 0 auto;
     padding-top: 67px;
-    // padding-bottom: 107px;
+    padding-bottom: 56px;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
@@ -44,12 +44,12 @@
         }
         .reviewbox {
             min-width: 225px;
-            // margin-left: 10px;
             display: flex;
             flex-direction: column;
-            justify-content: flex-end; //hopefully
+            justify-content: flex-end;
             align-items: flex-start;
             max-width: 30%; //darbinis laikinas width
+            margin-bottom: 40px;
             .custcomment {
                 margin: 0;
                 font-size: 16px;
@@ -102,4 +102,56 @@
             }
         }
     }
+}
+@media screen and (max-width: 600px) {
+    .reviews {
+        max-width: 320px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 70px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        .customerscontainer {
+            max-width: 300px;
+            justify-content: flex-start;
+            .reviewbox {
+                min-width: 300px;
+            }
+        }
+    }
+}
+
+#swpb {
+    .swiper-pagination-bullet {
+        margin: 0 10px;
+    }
+}
+@media screen and (max-width: 600px) {
+    #swpb {
+        // display: none;
+        // visibility: hidden;
+        // opacity: 0;
+        .swiper-pagination-bullet {
+            margin: 0 5px;
+        }
+    }
+}
+
+.swiper-pagination {
+    .swiper-pagination-bullet {
+        width: 8px;
+        height: 8px;
+        display: inline-block;
+        border: 1px solid $brand;
+        border-radius: 100%;
+        box-sizing: border-box;
+        background: white;
+        opacity: 1;
+    }
+    .swiper-pagination-bullet-active {
+        background: $brand;
+    }
+
 }
